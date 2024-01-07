@@ -2,7 +2,7 @@
 In this guide, we will explore various methods for imputing continuous numerical variables and illustrate the outcomes of each technique. Our focus will be on basic imputation approaches like mean and median imputation, as well as more complex strategies like K-nearest neighbors (KNN).
 
 # About the Dataset
-This dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. Several constraints were placed on the selection of these instances from a larger database. In particular, all patients here are females at least 21 years old of Pima Indian heritage.
+This dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. The objective of the dataset is to diagnostically predict whether a patient has diabetes, based on certain diagnostic measurements included in the dataset. Several constraints were placed on the selection of these instances from a larger database. All patients here are females at least 21 years old of Pima Indian heritage. Variables in the dataset include number of pregnancies, glucose, blood pressure, skin thickness, insulin, BMI, age, etc..
 
 # Variable to Impute
 In our dataset, the primary variable we'll concentrate on for imputation is 'Insulin,' which quantifies the 2-hour serum insulin level in micro-units per milliliter (mu U/ml) and has 48% missing values.
