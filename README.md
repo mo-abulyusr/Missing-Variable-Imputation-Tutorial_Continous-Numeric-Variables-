@@ -4,6 +4,8 @@ In this guide, we will explore various methods for imputing continuous numerical
 # About the Dataset
 This dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. The objective of the dataset is to diagnostically predict whether a patient has diabetes, based on certain diagnostic measurements included in the dataset. Several constraints were placed on the selection of these instances from a larger database. All patients here are females at least 21 years old of Pima Indian heritage. Variables in the dataset include number of pregnancies, glucose, blood pressure, skin thickness, insulin, BMI, age, etc..
 
+For a comprehensive exploratory analysis of the data, check out the **df_profile.html** file attached. 
+
 # Variable to Impute
 In our dataset, the primary variable we'll concentrate on for imputation is 'Insulin,' which quantifies the 2-hour serum insulin level in micro-units per milliliter (mu U/ml) and has 48% missing values.
 
